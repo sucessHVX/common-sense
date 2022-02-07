@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  padding-top: 100px;
+}
+
+.firstImage {
+  position: absolute;
+  top: 20px;
+  right: -50px;
+  width: 200px;
+  height: 100px;
 }
 
 .App-logo {
