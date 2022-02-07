@@ -1,6 +1,21 @@
 .App {
   text-align: center;
   padding-top: 100px;
+  text-shadow: -1px 0 beige, 0 1px beige, 1px 0 beige, 0 -1px beige;
+}
+
+.startButton {
+  width: 80px;
+  height: 40px;
+  background-color: violet;
+  color: white;
+  font-size: 25px;
+  border-radius: 10%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.startButton:hover {
+  background-color: #61dafb;
 }
 
 .firstImage {
