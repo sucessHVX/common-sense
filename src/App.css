@@ -4,14 +4,22 @@
   text-shadow: -1px 0 beige, 0 1px beige, 1px 0 beige, 0 -1px beige;
 }
 
-.startButton {
-  width: 80px;
-  height: 40px;
-  background-color: violet;
+.title {
+  font-size: 60px;
+}
+
+.startLink {
   color: white;
-  font-size: 25px;
-  border-radius: 10%;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.startButton {
+  width: 100px;
+  height: 60px;
+  background-color: violet;
+  border-radius: 10%;
 }
 
 .startButton:hover {
@@ -21,7 +29,7 @@
 .firstImage {
   position: absolute;
   top: 20px;
-  right: -50px;
+  right: -40px;
   width: 200px;
   height: 100px;
 }

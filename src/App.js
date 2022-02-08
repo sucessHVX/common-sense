@@ -1,18 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './routes/Home';
+import Quiz from './routes/Quiz';
 
 function App() {
-  const onClick = () => {
-    alert('개꿀');
-  };
-
   return (
     <div className="App">
-      <h1>상식 퀴즈</h1>
-      <img className="firstImage" src="img/1.jpg"></img>
-      <button onClick={onClick} className="startButton">
-        시작
-      </button>
+      <Router>
+        <Switch>
+          <Route path="/quiz">
+            <Quiz />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
