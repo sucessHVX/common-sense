@@ -1,8 +1,27 @@
 .canvas {
   width: 500px;
-  height: 600px;
+  height: 500px;
   margin: 20px 0px;
-  background-color: violet;
+  background-color: beige;
   border-radius: 30px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+span {
+  font-size: 32px;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 0px 15px;
+  background-color: beige;
+}
+
+@media screen and (max-width: 768px) {
+  .canvas {
+    width: 300px;
+    height: 300px;
+    margin: 20px 0px;
+    background-color: beige;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
 }
