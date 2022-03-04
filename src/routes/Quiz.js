@@ -6,9 +6,9 @@ export default function Quiz() {
       <h1>문제</h1>
       <canvas className={styles.canvas}></canvas>
       <div className="choice">
-        <span>1번</span>
-        <span>2번</span>
-        <span>3번</span>
+        <span>개</span>
+        <span>노</span>
+        <span>잼</span>
       </div>
     </>
   );
